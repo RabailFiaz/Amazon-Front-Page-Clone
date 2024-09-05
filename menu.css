@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+
+}
+
+.menu{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.panel1{
+    text-align: left;
+    padding: 8px 9px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.panelopts{
+margin: 5px 0px 6px;
+padding: 8px 9px;
+display: flex;
+align-items: center;
+font-weight: 500;
+}

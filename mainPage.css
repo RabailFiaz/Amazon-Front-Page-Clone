@@ -1,0 +1,706 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+
+}
+
+.heropage{
+    background-image: url(images/backgrngimg.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 1255px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+
+.h2{
+    font-size: 21px;
+    color: rgb(15, 17, 17);
+    font-weight: 700;
+}
+
+.box-content{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.shop-section p{
+    color: #007185;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.Img-box1{
+    height: 250px;
+    background-image: url(images/pc.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box2{
+    height: 250px;
+    background-image: url(images/vase.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box3{
+    height: 130px;
+    background-image: url(images/skirts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+
+.sub{
+    height: 130px;
+    background-image: url(images/pants.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+
+.Img-box4{
+    height: 250px;
+    background-image: url(images/shoes.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box5{
+    height: 250px;
+    background-image: url(images/health.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box6{
+    height: 250px;
+    background-image: url(images/hijabs.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box7{
+    height: 250px;
+    background-image: url(images/tyos.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box8{
+    height: 250px;
+    background-image: url(images/beauty.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Best seller section */
+
+.best-seller-section{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
+
+.images{
+height: 280px;
+display: flex;
+align-items: center;
+
+
+}
+
+.img1{
+    height: 200px;
+    width:20%;
+    background-image: url(images/bestsel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.img2{
+    height: 100px;
+    width:20%;
+    background-image: url(images/bestsel2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.img3{
+    height: 200px;
+    width:15%;
+    background-image: url(images/bestsel3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.img4{
+    height: 200px;
+    width:15%;
+    background-image: url(images/bestsel4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem;
+}
+
+.img5{
+    height: 180px;
+    width:15%;
+    background-image: url(images/bestsel5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+
+.img6{
+    height: 100px;
+    width:20%;
+    background-image: url(images/bestsel6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.img7{
+    height: 180px;
+    width:15%;
+    background-image: url(images/bestsel7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+/* best seller section part 2 */
+
+
+.img1-1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/best.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img2-1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/best2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img3-1{
+    height: 200px;
+    width:15%;
+    background-image: url(images/best3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img4-1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/best4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img5-1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/best5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img6-1{
+    height: 200px;
+    width:15%;
+    background-image: url(images/best6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* new shop section */
+
+
+.Img-box9{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sub1{
+    height: 120px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/decor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub2{
+    height: 120px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/decor2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub3{
+    height: 120px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/decor3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub4{
+    height: 120;
+    width: 120px;
+    margin-top: 1rem;
+    background-image: url(images/decor4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.Img-box10{
+    height: 250px;
+    background-image: url(images/watches.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box11{
+    height: 250px;
+    background-image: url(images/school.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Img-box12{
+    height: 250px;
+    background-image: url(images/kitchens.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Book section */
+
+
+.b1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/book1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b2{
+    height: 180px;
+    width:15%;
+    background-image: url(images/book2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b3{
+    height: 200px;
+    width:15%;
+    background-image: url(images/book3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b4{
+    height: 180px;
+    width:15%;
+    background-image: url(images/book4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b5{
+    height: 150px;
+    width:15%;
+    background-image: url(images/book5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b6{
+    height: 180px;
+    width:15%;
+    background-image: url(images/book6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.b7{
+    height: 200px;
+    width:15%;
+    background-image: url(images/book7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* top sellers in pakistan */
+
+
+
+.t1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/top1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t2{
+    height: 180px;
+    width:15%;
+    background-image: url(images/top2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t3{
+    height: 100px;
+    width:15%;
+    background-image: url(images/top3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t4{
+    height: 180px;
+    width:15%;
+    background-image: url(images/top4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t5{
+    height: 150px;
+    width:15%;
+    background-image: url(images/top5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.t6{
+    height: 180px;
+    width:15%;
+    background-image: url(images/top6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* last section 
+box 1*/
+
+.Img-box13{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.k1{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/k1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.k2{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/k2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.k3{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/k3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.k4{
+    height: 100px;
+    width: 120px;
+    margin-top: 1rem;
+    background-image: url(images/k4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* box 2 */
+
+.Img-box14{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.c1{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/last1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c2{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/last2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c3{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/last3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c4{
+    height: 100px;
+    width: 120px;
+    margin-top: 1rem;
+    background-image: url(images/last4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* box 3 */
+
+
+.Img-box15{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cmp1{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/c1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cmp2{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/c2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cmp3{
+    height: 100px;
+    width: 120px;
+    margin-top: 1REM;
+    background-image: url(images/c3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cmp4{
+    height: 100px;
+    width: 120px;
+    margin-top: 1rem;
+    background-image: url(images/c4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* box 4 */
+
+.Img-box16{
+    height: 250px;
+    background-image: url(images/gaming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* toy section */
+
+
+.tt1{
+    height: 180px;
+    width:15%;
+    background-image: url(images/toy1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tt2{
+    height: 180px;
+    width:15%;
+    background-image: url(images/toy2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tt3{
+    height: 200px;
+    width:15%;
+    background-image: url(images/toy3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tt4{
+    height: 180px;
+    width:15%;
+    background-image: url(images/toy4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tt5{
+    height: 150px;
+    width:15%;
+    background-image: url(images/toy5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tt6{
+    height: 180px;
+    width:15%;
+    background-image: url(images/toy6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
